@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding
+  : 5px;
+}
+.column {
+    display: flex;
+    cursor: pointer;
+}
+.f2{
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+}
+.column{
+    height: calc(100vh-112px);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: lightgray;
+    background-image: url('wallet.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul lia{
+    text-decoration: none;
+    color: #606163;
+}
+nav ul li a:hover{
+    color:#ff4321;
+}
+.btn{
+    display: inline-block;
+    border-radius: 80px;
+    background-color: #ff4321;
+    padding: 20px 80px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 16px 24px rgba(0,0,0,0.3);
+    margin-top: 75px;
+    margin-left: 600px;
+}
+</style>
+</head>
+<body>
+
+<h2>Non Fictional-Biographies and Memories</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="b1.jpg" alt="F2" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  <div class="column">
+    <img src="b2.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  <div class="column">
+    <img src="b3.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>
+</div>
+
+<h2>Fictional-Fantasy</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="fan1.jpg" alt="f1" style="width:60%" onclick="redirectToLink('https://en.wikipedia.org/wiki/Big_Little_Lies_(novel)')">
+  </div>
+  <div class="column">
+    <img src="fan2.jpg" alt="F2" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  <div class="column">
+    <img src="fan3.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  
+</div>
+<h2>Fictional-Thriller</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="thr1.jpg" alt="f1" style="width:60%" onclick="redirectToLink('https://en.wikipedia.org/wiki/Big_Little_Lies_(novel)')">
+  </div>
+  
+  <div class="column">
+    <img src="thr3.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  <div class="column">
+    <img src="thr4.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>  
+</div>
+<h2>Fictional-Adventure</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="adv1.jpg" alt="f1" style="width:60%" onclick="redirectToLink('https://en.wikipedia.org/wiki/Big_Little_Lies_(novel)')">
+  </div>
+  <div class="column">
+    <img src="adv2.jpg" alt="F2" style="width:60%" onclick="redirectToLink('')">
+  </div>
+  <div class="column">
+    <img src="thr2.jpg" alt="f3" style="width:60%" onclick="redirectToLink('')">
+  </div>
+</body>
+</html>
